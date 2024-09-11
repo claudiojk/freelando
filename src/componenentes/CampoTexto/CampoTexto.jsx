@@ -1,17 +1,18 @@
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 
 const LabelEstilizada = styled.label`
     display: block;
     width: 100%;
-    box-sizing : border-box;
+    box-sizing: border-box;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
 `
+
 const InputEstilizado = styled.input`
     display: block;
     width: 100%;
-    box-sizing : border-box;
+    box-sizing: border-box;
     margin-top: ${props => props.theme.espacamentos.xs};
     margin-bottom: ${props => props.theme.espacamentos.s};
     background: ${props => props.theme.cores.branco};
